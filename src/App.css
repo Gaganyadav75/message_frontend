@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  .no-scrollbar::-webkit-scrollbar {
+      display: hidden;
+  }
+
+  .no-scrollbar {
+      -ms-overflow-style: none; 
+      scrollbar-width: none; 
+}
+}
+
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
